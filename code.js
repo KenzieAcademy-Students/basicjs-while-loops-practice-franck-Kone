@@ -15,7 +15,7 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 
 let kata1 = function () {
     let index = 0;
-    while (index < 2) {
+    while (index < 10) {
         console.log(index);
         index += 1;
     }
@@ -33,13 +33,14 @@ console.log("Exercise Two");
 //
 // Write your code here 👇
 
-// let kata2 = function () {
-//     let index = 0;
-//     while (index < 15) {
-//         console.log(index);
-//     }
-// };
-// kata2();
+let kata2 = function () {
+    let index = 0;
+    while (index < 15) {
+        console.log(index);
+        index++
+    }
+};
+kata2();
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Three");
@@ -51,6 +52,11 @@ console.log("Exercise Three");
 // Write your code here 👇
 
 let kata3 = function () {
+    let item = 1
+    while(item <= 20){
+        console.log(`the number is ${item}`)
+        item++
+    }
 
 }
 kata3();
@@ -65,6 +71,11 @@ console.log("Exercise Four");
 // Write your code here 👇
 
 let kata4 = function () {
+    let evenNumber = 2
+    while(evenNumber <= 20){
+        console.log(`from 2 to 20, an even number is ${evenNumber}`)
+        evenNumber += 2
+    }
 
 }
 kata4();
@@ -79,6 +90,11 @@ console.log("Exercise Five");
 // Write your code here 👇
 
 let kata5 = function () {
+    let oddNumber = 1
+    while(oddNumber < 20){
+        console.log(oddNumber)
+        oddNumber += 2
+    }
 
 }
 kata5();
@@ -93,6 +109,11 @@ console.log("Exercise Six");
 // Write your code here 👇
 
 let kata6 = function () {
+    let count = 5
+    while(count <= 100) {
+        console.log(count)
+        count += 5
+    }
 
 }
 kata6();
@@ -107,6 +128,11 @@ console.log("Exercise Seven");
 // Write your code here 👇
 
 let kata7 = function () {
+    let countBackwards = 20
+    while(countBackwards > 0) {
+        console.log(countBackwards)
+        countBackwards--
+    }
 
 }
 kata7();
@@ -121,6 +147,11 @@ console.log("Exercise Eight");
 // Write your code here 👇
 
 let kata8 = function () {
+    let countBackwardsEvenNumber = 20
+    while(countBackwardsEvenNumber > 1) {
+        console.log(countBackwardsEvenNumber)
+        countBackwardsEvenNumber -= 2
+    }
 
 }
 kata8();
@@ -135,6 +166,11 @@ console.log("Exercise Nine");
 // Write your code here 👇
 
 let kata9 = function () {
+    let countBackwardsOddNumber = 19 
+    while(countBackwardsOddNumber > 0) {
+        console.log(countBackwardsOddNumber)
+        countBackwardsOddNumber -= 2
+    }
 
 }
 kata9();
@@ -149,6 +185,12 @@ console.log("Exercise Ten");
 // Write your code here 👇
 
 let kata10 = function () {
+    let countBackwardsFiver = 100 
+    while(countBackwardsFiver >= 5) {
+        console.log(countBackwardsFiver)
+        countBackwardsFiver -= 5
+    }
+    
 
 }
 kata10();
